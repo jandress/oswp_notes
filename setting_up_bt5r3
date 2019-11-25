@@ -1,4 +1,5 @@
-This class uses Backtrack 5 r3, which is now sad as all its repos are dead. Furthermore, the default vmware tools does not function, so no copy and paste and no auto screen resolution. We can rebuild it, we have the technology...
+This class uses Backtrack 5 r3, which is now sad as all its repos are dead. Furthermore, the default vmware tools 
+does not function, so no copy and paste and no auto screen resolution. We can rebuild it, we have the technology...
 
 update /etc/apt/sources.list with the archive repos from ubuntu lucid:
 # See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
@@ -59,5 +60,7 @@ apt-get update
 
 install open vmware tools:
 apt-get install open-vm-tools
+
+reboot!
 
 in theory, you could update other packages from these repos, but you may break bt in the process so its likely a bad idea.
