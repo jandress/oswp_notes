@@ -64,3 +64,6 @@ apt-get install open-vm-tools
 reboot!
 
 in theory, you could update other packages from these repos, but you may break bt in the process so its likely a bad idea.
+
+if vmware tools need to be restarted because they've gone sideways (no copy paste for example), the command is:
+/etc/vmware-tools/services.sh restart
