@@ -67,3 +67,7 @@ in theory, you could update other packages from these repos, but you may break b
 
 if vmware tools need to be restarted because they've gone sideways (no copy paste for example), the command is:
 /etc/vmware-tools/services.sh restart
+
+Using ssh:
+sshd-generate
+service ssh start
